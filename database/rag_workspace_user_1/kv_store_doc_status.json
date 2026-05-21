@@ -1,0 +1,19 @@
+{
+  "doc-884d3eb9f4a59696b150f947e44350ae": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-884d3eb9f4a59696b150f947e44350ae"
+    ],
+    "content_summary": "Patient Name: Jane Smith. Age: 30. Test: Cholesterol. Result: 180 mg/dL.",
+    "content_length": 72,
+    "created_at": "2026-05-15T05:04:45.355799+00:00",
+    "updated_at": "2026-05-15T05:06:36.416172+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260515_103445_5058705d",
+    "metadata": {
+      "processing_start_time": 1778821485,
+      "processing_end_time": 1778821596
+    }
+  }
+}

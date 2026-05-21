@@ -1,0 +1,141 @@
+
+--- 10:18:05 | STRATEGY: Original ---
+RAW (len 1331): ```markdown
+Patient Name: Mr. Rajeshwar M, 29 Yrs, Male
+Admission No: IP0002180
+UMR No: MRR1012810
+Consultant: Dr.. AMIT UTTARWAR
+Admission Date: 07 May 2026
+
+SURYA
+GLOBAL
+HOSPITALS
+
+---
+
+### MEDICATION RECONCILIATION
+
+Patient Name:  
+Age/Sex:  
+
+- [ ] CASUALITY  
+- [x] OPD  
+- [ ] WARD  
+
+| Drug Na
+CLEANED (len 1311): Patient Name: Mr. Rajeshwar M, 29 Yrs, Male
+Admission No: IP0002180
+UMR No: MRR1012810
+Consultant: Dr.. AMIT UTTARWAR
+Admission Date: 07 May 2026
+
+SURYA
+GLOBAL
+HOSPITALS
+
+---
+
+### MEDICATION RECONCILIATION
+
+Patient Name:  
+Age/Sex:  
+
+- [ ] CASUALITY  
+- [x] OPD  
+- [ ] WARD  
+
+| Drug Name | Dose | 
+
+--- 10:47:36 | STRATEGY: Original ---
+RAW (len 1331): ```markdown
+Patient Name: Mr. Rajeshwar M, 29 Yrs, Male
+Admission No: IP0002180
+UMR No: MRR1012810
+Consultant: Dr.. AMIT UTTARWAR
+Admission Date: 07 May 2026
+
+SURYA
+GLOBAL
+HOSPITALS
+
+---
+
+### MEDICATION RECONCILIATION
+
+Patient Name:  
+Age/Sex:  
+
+- [ ] CASUALITY  
+- [x] OPD  
+- [ ] WARD  
+
+| Drug Na
+CLEANED (len 1311): Patient Name: Mr. Rajeshwar M, 29 Yrs, Male
+Admission No: IP0002180
+UMR No: MRR1012810
+Consultant: Dr.. AMIT UTTARWAR
+Admission Date: 07 May 2026
+
+SURYA
+GLOBAL
+HOSPITALS
+
+---
+
+### MEDICATION RECONCILIATION
+
+Patient Name:  
+Age/Sex:  
+
+- [ ] CASUALITY  
+- [x] OPD  
+- [ ] WARD  
+
+| Drug Name | Dose | 
+
+--- 10:57:56 | STRATEGY: Original ---
+RAW (len 1331): ```markdown
+Patient Name: Mr. Rajeshwar M, 29 Yrs, Male
+Admission No: IP0002180
+UMR No: MRR1012810
+Consultant: Dr.. AMIT UTTARWAR
+Admission Date: 07 May 2026
+
+SURYA
+GLOBAL
+HOSPITALS
+
+---
+
+### MEDICATION RECONCILIATION
+
+Patient Name:  
+Age/Sex:  
+
+- [ ] CASUALITY  
+- [x] OPD  
+- [ ] WARD  
+
+| Drug Na
+CLEANED (len 1311): Patient Name: Mr. Rajeshwar M, 29 Yrs, Male
+Admission No: IP0002180
+UMR No: MRR1012810
+Consultant: Dr.. AMIT UTTARWAR
+Admission Date: 07 May 2026
+
+SURYA
+GLOBAL
+HOSPITALS
+
+---
+
+### MEDICATION RECONCILIATION
+
+Patient Name:  
+Age/Sex:  
+
+- [ ] CASUALITY  
+- [x] OPD  
+- [ ] WARD  
+
+| Drug Name | Dose | 

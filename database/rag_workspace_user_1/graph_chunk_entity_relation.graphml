@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Jane Smith">
+  <data key="d0">Jane Smith</data>
+  <data key="d1">person</data>
+  <data key="d2">Jane Smith is a patient who is 30 years of age and underwent a cholesterol test.</data>
+  <data key="d3">chunk-884d3eb9f4a59696b150f947e44350ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1778821594</data>
+  <data key="d6"></data>
+</node>
+<node id="Cholesterol">
+  <data key="d0">Cholesterol</data>
+  <data key="d1">method</data>
+  <data key="d2">Cholesterol is a medical test performed on Jane Smith.</data>
+  <data key="d3">chunk-884d3eb9f4a59696b150f947e44350ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1778821594</data>
+  <data key="d6"></data>
+</node>
+<node id="180 mg/dL">
+  <data key="d0">180 mg/dL</data>
+  <data key="d1">data</data>
+  <data key="d2">180 mg/dL is the recorded result of the cholesterol test.</data>
+  <data key="d3">chunk-884d3eb9f4a59696b150f947e44350ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1778821594</data>
+  <data key="d6"></data>
+</node>
+<edge source="Jane Smith" target="Cholesterol">
+  <data key="d7">1.0</data>
+  <data key="d8">Jane Smith is the subject of the cholesterol test.</data>
+  <data key="d9">medical testing,subject</data>
+  <data key="d10">chunk-884d3eb9f4a59696b150f947e44350ae</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1778821596</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Jane Smith" target="180 mg/dL">
+  <data key="d7">1.0</data>
+  <data key="d8">The result of 180 mg/dL is associated with Jane Smith.</data>
+  <data key="d9">data,medical result</data>
+  <data key="d10">chunk-884d3eb9f4a59696b150f947e44350ae</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1778821596</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cholesterol" target="180 mg/dL">
+  <data key="d7">1.0</data>
+  <data key="d8">The cholesterol test yielded a result of 180 mg/dL.</data>
+  <data key="d9">measurement,test result</data>
+  <data key="d10">chunk-884d3eb9f4a59696b150f947e44350ae</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1778821596</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

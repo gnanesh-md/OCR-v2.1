@@ -1,0 +1,17 @@
+streamlit
+bcrypt
+google-generativeai
+lightrag-hku
+litellm
+PyPDF2
+python-docx
+Pillow
+nest-asyncio
+markdown
+xhtml2pdf
+PyMuPDF
+python-dotenv
+numpy
+ollama
+openpyxl
+pandas

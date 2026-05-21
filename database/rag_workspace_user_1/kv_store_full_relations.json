@@ -1,0 +1,22 @@
+{
+  "doc-884d3eb9f4a59696b150f947e44350ae": {
+    "relation_pairs": [
+      [
+        "180 mg/dL",
+        "Jane Smith"
+      ],
+      [
+        "180 mg/dL",
+        "Cholesterol"
+      ],
+      [
+        "Cholesterol",
+        "Jane Smith"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1778821596,
+    "update_time": 1778821596,
+    "_id": "doc-884d3eb9f4a59696b150f947e44350ae"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "180 mg/dL<SEP>Cholesterol": {
+    "chunk_ids": [
+      "chunk-884d3eb9f4a59696b150f947e44350ae"
+    ],
+    "count": 1,
+    "create_time": 1778821596,
+    "update_time": 1778821596,
+    "_id": "180 mg/dL<SEP>Cholesterol"
+  },
+  "Cholesterol<SEP>Jane Smith": {
+    "chunk_ids": [
+      "chunk-884d3eb9f4a59696b150f947e44350ae"
+    ],
+    "count": 1,
+    "create_time": 1778821596,
+    "update_time": 1778821596,
+    "_id": "Cholesterol<SEP>Jane Smith"
+  },
+  "180 mg/dL<SEP>Jane Smith": {
+    "chunk_ids": [
+      "chunk-884d3eb9f4a59696b150f947e44350ae"
+    ],
+    "count": 1,
+    "create_time": 1778821596,
+    "update_time": 1778821596,
+    "_id": "180 mg/dL<SEP>Jane Smith"
+  }
+}
