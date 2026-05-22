@@ -13,6 +13,12 @@ RUN apt-get update && apt-get install -y \
     libcairo2-dev \
     && rm -rf /var/lib/apt/lists/*
 
+# Install Ollama CLI for local model serving
+RUN curl -fsSL https://ollama.com/install.sh | sh \
+    && ln -sf /root/.ollama/bin/ollama /usr/local/bin/ollama
+
+ENV PATH="/root/.ollama/bin:${PATH}"
+
 # Copy your requirements file first to leverage Docker cache
 COPY requirements.txt .
 
@@ -27,4 +33,4 @@ COPY . .
 EXPOSE 8501
 
 # Command to run the application
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["sh", "-c", "streamlit run app.py --server.port=${PORT:-8501} --server.address=0.0.0.0"]

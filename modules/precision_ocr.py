@@ -12,6 +12,7 @@ Features:
 """
 import streamlit as st
 import io
+import os
 import fitz          # PyMuPDF
 import re
 import math
@@ -185,8 +186,10 @@ def call_model_with_retry(
             raw_text = resp["message"]["content"]
             result   = clean_output(raw_text)
             
-            # DEBUG LOGGING (Absolute path)
-            log_path = "/home/kalpra/Downloads/OCR/database/ocr_debug.log"
+            # DEBUG LOGGING (Docker-friendly relative path)
+            log_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "database"))
+            os.makedirs(log_dir, exist_ok=True)
+            log_path = os.path.join(log_dir, "ocr_debug.log")
             with open(log_path, "a") as f:
                 f.write(f"\n--- {time.strftime('%H:%M:%S')} | STRATEGY: {strategy_name} ---\n")
                 f.write(f"RAW (len {len(raw_text)}): {raw_text[:300]}\n")
